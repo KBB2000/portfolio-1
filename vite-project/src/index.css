@@ -1,0 +1,49 @@
+*{
+    font-family: 'Roboto';
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* Default Light Theme Variables */
+:root {
+    --bg-color: white;
+    --text-color: black;
+    --secondary-text-color: gray;
+    --link-color: blue;
+    --link-hover-color: orange;
+    --navbar-bg: rgb(240, 240, 240);
+    --button-bg: blue;
+    --button-text: white;
+    --button-hover-bg: orange;
+    --button-hover-text: white;
+    --card-bg: rgb(255, 255, 255);
+    --border-color: rgb(220, 220, 220);
+  }
+  
+  /* Dark Theme Variables */
+  [data-theme="dark"] {
+    --bg-color: rgb(24, 24, 24);
+    --text-color: white;
+    --secondary-text-color: rgb(180, 180, 180);
+    --link-color: rgb(100, 149, 237);
+    --link-hover-color: orange;
+    --navbar-bg: rgb(30, 30, 30);
+    --button-bg: rgb(60, 60, 60);
+    --button-text: white;
+    --button-hover-bg: rgb(100, 100, 100);
+    --button-hover-text: white;
+    --card-bg: rgb(40, 40, 40);
+    --border-color: rgb(80, 80, 80);
+  }
+  
+  /* Global Styling */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
